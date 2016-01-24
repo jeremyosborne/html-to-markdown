@@ -14,7 +14,6 @@ try {
 var url = argv._[0];
 if (!url) {
     var usage = `
-
 ${meta.name} ${meta.version}
 
 Usage:
