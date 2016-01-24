@@ -8,6 +8,7 @@
   },
   "bin": "./index.js",
   "preferGlobal": true,
+  "homepage": "https://github.com/jeremyosborne/html-to-markdown",
   "repository": {
     "type": "git",
     "url": "http://github.com/jeremyosborne/html-to-markdown.git"
@@ -21,7 +22,9 @@
   "bugs": {
     "url": "https://github.com/jeremyosborne/html-to-markdown/issues"
   },
-  "homepage": "https://github.com/jeremyosborne/html-to-markdown",
+  "engines" : {
+    "node" : ">=4.0.0"
+  },
   "dependencies": {
     "cheerio": "^0.19.0",
     "minimist": "^1.1.1",
