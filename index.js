@@ -23,15 +23,20 @@ var verbose = function() {
 
 var url = argv._[0];
 if (!url) {
-    console.error("%s %s", meta.name, meta.version);
-    console.error("\nUsage:\n");
-    console.error("\thtml-to-markdown -v [--xform=some-style] <url>\n");
-    console.error("-v");
-    console.error("\tverbose mode. non-content comments to stderr (content only ever to stdout)");
-    console.error("\n--xform");
-    console.error("\tnone (default)");
-    console.error("\twikipedia");
-    console.error("\n");
+    var usage = `\n${meta.name} ${meta.version}
+
+Usage:
+
+    html-to-markdown -v [--xform=some-style] <url>
+
+-v
+    verbose mode. non-content comments to stderr (content only ever to stdout)
+
+--xform
+    none (default)
+    wikipedia
+`;
+    console.error(usage);
     process.exit(1);
 }
 
