@@ -1,5 +1,9 @@
 #!/usr/bin/env node
 
+if (require.main !== module) {
+    throw new Error("This is file is a shell script. Please don't require this module.");
+}
+
 try {
     var htmlToMarkdown = require("./index");
     var meta = require("./package.json");
