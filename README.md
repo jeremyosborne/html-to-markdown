@@ -6,4 +6,4 @@ Convert an html page to markdown.
 
     npm install
     # for usage...
-    ./index.js
+    ./script.js
