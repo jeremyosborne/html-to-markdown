@@ -1,6 +1,6 @@
 {
   "name": "html-to-markdown",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "convert a web address to markdown",
   "main": "index.js",
   "bin": "./script.js",
