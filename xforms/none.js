@@ -1,6 +1,4 @@
-/* jshint undef:true, unused:true, node:true */
-
-// Don't do anything.
+// Don't do anything, probably not what you actually want.
 module.exports = function(html) {
     return html;
 };

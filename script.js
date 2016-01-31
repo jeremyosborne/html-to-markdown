@@ -28,7 +28,8 @@ Usage:
     verbose mode. non-content comments to stderr (content only ever to stdout)
 
 --xform
-    none (default)
+    none
+    normal (default)
     wikipedia
 `;
     console.error(usage);
@@ -56,7 +57,7 @@ if (xform) {
         process.exit(1);
     }
 } else {
-    xform = "none";
+    xform = "normal";
     verbose("using default xform named", xform);
 }
 

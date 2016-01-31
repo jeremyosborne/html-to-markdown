@@ -1,4 +1,3 @@
-/* jshint undef:true, unused:true, node:true */
 var cheerio = require("cheerio");
 
 module.exports = function(html) {
