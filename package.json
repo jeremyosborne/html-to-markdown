@@ -1,12 +1,12 @@
 {
   "name": "html-to-markdown",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "convert a web address to markdown",
   "main": "index.js",
+  "bin": "./script.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bin": "./script.js",
   "homepage": "https://github.com/jeremyosborne/html-to-markdown",
   "repository": {
     "type": "git",

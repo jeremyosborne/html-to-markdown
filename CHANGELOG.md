@@ -1,3 +1,7 @@
+# 0.0.6
+
+* Fixed `normal` filter.
+
 # 0.0.5
 
 * Add a `normal` filter that strips out everything we assume we want stripped out
